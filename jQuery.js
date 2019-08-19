@@ -25,6 +25,9 @@ $('html,body').animate({scrollTop:0},0)
 })
 
 
+// scroll down from the top :
+$(`html,body`).animate({scrollTop:$('body').height()},6000)
+
 
 /*
 Q3:
